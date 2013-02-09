@@ -54,7 +54,8 @@ public class ProfileActivity extends Activity implements OnClickListener {
 		case R.id.menu_help:
 			Dialog helpDialog = new Dialog(this);
 			helpDialog.setContentView(R.layout.help_dialog);
-			helpDialog.setTitle("What contains one block?");
+			String title = getResources().getString(R.string.title_what_contains_one_block);
+			helpDialog.setTitle(title);
 			helpDialog.show();
 			return true;
 		case R.id.menu_list:
@@ -176,7 +177,8 @@ public class ProfileActivity extends Activity implements OnClickListener {
 				setDailyBlocksText(fatsPercent);
 			} else {
 				tvFatsPercent.setText("n/a");
-				tvDailyBlocks.setText("Daily blocks: n/a");
+				String dailyBlocks = getResources().getString(R.string.label_daily_blocks);
+				tvDailyBlocks.setText(dailyBlocks + ": n/a");
 			}
 		} else {
 			float fatsPercent = createWoman();
@@ -230,7 +232,8 @@ public class ProfileActivity extends Activity implements OnClickListener {
 			dailyBlocks = (int) ((weightInPounds - weightInPounds * fatsPercent / 100)
 					* physicalActivity / 7);
 		}
-		tvDailyBlocks.setText("Daily blocks: " + dailyBlocks);
+		String dailyBlocksStr = getResources().getString(R.string.label_daily_blocks);
+		tvDailyBlocks.setText(dailyBlocksStr + " " + dailyBlocks);
 	}
 
 	private void setListeners() {

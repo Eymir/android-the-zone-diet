@@ -32,9 +32,15 @@
     <string name="label_physical_activity">Physical activity level:</string>
     <string name="label_check_box_metric">Metric</string>
     
+    <string name="title_what_contains_one_block">What contains one block?</string>
     <string name="title_list_dialog">One block examples</string>
     <string name="title_menu_list">Examples</string>
     <string name="title_menu_help">Block</string>
     <string  name="title_delete_dialog">Delete profile</string>
+    <string name="_7_grams_protein">7 grams protein</string>
+    <string name="label_one_block_contains">One block contains:</string>
+    <string name="_9_grams_carbohydrate">9 grams carbohydrate</string>
+    <string name="_1_5_grams_fat">1.5 grams fat</string>
+    <string name="label_daily_blocks">Daily blocks:</string>
 
 </resources>

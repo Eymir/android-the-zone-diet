@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="example_list_data">
+        <item>200 гр. нискомаслено прясно мляко</item>
+        <item>1 яйце, &#189; филия хляб, 5 маслини</item>
+        <item>1 кренвирш, 200 гр. домати, 8 фъстъка</item>
+        <item>50 гр. извара, &#189; ябълка, 3 бадема</item>
+        <item>42 гр. сьомга, 1 киви, &#189; супена лъжица майонеза</item>
+        <item>200 гр. кисело мляко</item>
+    </string-array>
+
+</resources>

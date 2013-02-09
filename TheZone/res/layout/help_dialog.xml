@@ -7,28 +7,28 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="One block contains:"
+        android:text="@string/label_one_block_contains"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_small"
-        android:text="7 grams protein"
+        android:text="@string/_7_grams_protein"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_small"
-        android:text="9 grams carbohydrate"
+        android:text="@string/_9_grams_carbohydrate"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_small"
-        android:text="1.5 grams fat"
+        android:text="@string/_1_5_grams_fat"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </LinearLayout>

@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="app_name">The Zone</string>
+    <string name="empty">Няма намерени профили</string>
+    <string name="hint_height_imperial">Височина (инч)</string>
+    <string name="hint_height_metric">Височина (см)</string>
+    <string name="hint_hip_imperial">Ханш (инч)</string>
+    <string name="hint_hip_metric">Ханш (см)</string>
+    <string name="hint_name">Въведете име</string>
+    <string name="hint_waist_imperial">Талия (инч)</string>
+    <string name="hint_waist_metric">Талия (см)</string>
+    <string name="hint_weight_imperial">Тегло (паунд)</string>
+    <string name="hint_weight_metric">Тегло (кг)</string>
+    <string name="hint_wrist_imperial">Китка (инч)</string>
+    <string name="hint_wrist_metric">Китка (см)</string>
+    <string name="label_body_mass_index">ИТМ:</string>
+    <string name="label_button_confirm_profile">Потвърди промените</string>
+    <string name="label_button_create_profile">Създай профил</string>
+    <string name="label_check_box_imperial">Имперска</string>
+    <string name="label_check_box_metric">Метрична</string>
+    <string name="label_delete_profile">Изтрий профил(и)</string>
+    <string name="label_delete_profile_activity">Изтрий профил(и) </string>
+    <string name="label_fats_percent">Мазнини:</string>
+    <string name="label_gender">Пол:</string>
+    <string name="label_height">Височина:</string>
+    <string name="label_hip">Ханш:</string>
+    <string name="label_load_profile">Зареди профил</string>
+    <string name="label_load_profile_activity">Профил(и)</string>
+    <string name="label_name">Име:</string>
+    <string name="label_new_profile">Нов профил</string>
+    <string name="label_physical_activity">Ниво на физическа активност:</string>
+    <string name="label_profile">Профил</string>
+    <string name="label_radio_man">Мъж</string>
+    <string name="label_radio_woman">Жена</string>
+    <string name="label_statistics">Статистика</string>
+    <string name="label_update_profile">Обнови</string>
+    <string name="label_waist">Талия:</string>
+    <string name="label_waist_statistics">Талия:</string>
+    <string name="label_weight">Тегло:</string>
+    <string name="label_weight_statistics">Тегло</string>
+    <string name="label_wrist">Китка:</string>
+    <string name="label_wrist_statistics">Китка</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="title_activity_main">Зоната</string>
+        <string name="title_what_contains_one_block">Какво съдържа 1 блок?</string>
+    <string name="title_delete_dialog">Изтрий профил</string>
+    <string name="title_list_dialog">Примери за 1 блок</string>
+    <string name="title_menu_help">Блок</string>
+    <string name="title_menu_list">Примери</string>
+    <string name="_7_grams_protein">7 гр. протеин</string>
+    <string name="label_one_block_contains">1 блок съдържа:</string>
+    <string name="_9_grams_carbohydrate">9 гр. въглехидрати</string>
+    <string name="_1_5_grams_fat">1.5 гр. мазнини</string>
+    <string name="label_daily_blocks">Блокове:</string>
+
+</resources>

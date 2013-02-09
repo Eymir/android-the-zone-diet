@@ -89,17 +89,19 @@ public final class R {
         public static final int activity_new_profile=0x7f030002;
         public static final int activity_profile=0x7f030003;
         public static final int activity_select_statistic=0x7f030004;
-        public static final int asd=0x7f030005;
-        public static final int delete_dialog=0x7f030006;
-        public static final int help_dialog=0x7f030007;
-        public static final int item=0x7f030008;
-        public static final int list_dialog=0x7f030009;
+        public static final int delete_dialog=0x7f030005;
+        public static final int help_dialog=0x7f030006;
+        public static final int item=0x7f030007;
+        public static final int list_dialog=0x7f030008;
     }
     public static final class menu {
         public static final int activity_main=0x7f090000;
         public static final int profile_activity=0x7f090001;
     }
     public static final class string {
+        public static final int _1_5_grams_fat=0x7f06003a;
+        public static final int _7_grams_protein=0x7f060037;
+        public static final int _9_grams_carbohydrate=0x7f060039;
         public static final int app_name=0x7f060014;
         public static final int empty=0x7f060020;
         public static final int hello_world=0x7f060015;
@@ -119,6 +121,7 @@ public final class R {
         public static final int label_button_create_profile=0x7f06001c;
         public static final int label_check_box_imperial=0x7f06001d;
         public static final int label_check_box_metric=0x7f060031;
+        public static final int label_daily_blocks=0x7f06003b;
         public static final int label_delete_profile=0x7f060022;
         public static final int label_delete_profile_activity=0x7f060023;
         public static final int label_fats_percent=0x7f060013;
@@ -129,6 +132,7 @@ public final class R {
         public static final int label_load_profile_activity=0x7f060021;
         public static final int label_name=0x7f06000b;
         public static final int label_new_profile=0x7f060018;
+        public static final int label_one_block_contains=0x7f060038;
         public static final int label_physical_activity=0x7f060030;
         public static final int label_physical_activity_10=0x7f06002f;
         public static final int label_physical_activity_5=0x7f06002a;
@@ -150,10 +154,11 @@ public final class R {
         public static final int menu_settings=0x7f060016;
         public static final int separator=0x7f06001f;
         public static final int title_activity_main=0x7f060017;
-        public static final int title_delete_dialog=0x7f060035;
-        public static final int title_list_dialog=0x7f060032;
-        public static final int title_menu_help=0x7f060034;
-        public static final int title_menu_list=0x7f060033;
+        public static final int title_delete_dialog=0x7f060036;
+        public static final int title_list_dialog=0x7f060033;
+        public static final int title_menu_help=0x7f060035;
+        public static final int title_menu_list=0x7f060034;
+        public static final int title_what_contains_one_block=0x7f060032;
     }
     public static final class style {
         /** 
