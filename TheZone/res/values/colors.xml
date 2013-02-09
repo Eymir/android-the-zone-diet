@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_load">#770090ff</color>
+    <color name="main_background">#D9D8DD</color>
+    <color name="background_separator">#cf0090ff</color>
+    <color name="background_item">#d2d2d2</color>
+    <color name="dailyBlocksColor">#ffbf2200</color>
+
+</resources>

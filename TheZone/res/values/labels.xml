@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="label_name">Name:</string>
+    <string name="label_gender">Gender:</string>
+    <string name="label_weight">Weight:</string>
+    <string name="label_waist">Waist:</string>
+    <string name="label_wrist">Wrist:</string>
+    <string name="label_hip">Hip:</string>
+    <string name="label_height">Height:</string>
+    <string name="label_body_mass_index">BMI:</string>
+    <string name="label_fats_percent">Fats:</string>
+
+</resources>

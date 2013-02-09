@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp" >
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName|textCapWords"
+        android:lines="1" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_weight_metric"
+        android:inputType="numberSigned"
+        android:lines="1"
+        android:maxLength="3" />
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_height_metric"
+        android:inputType="numberSigned"
+        android:lines="1"
+        android:maxLength="3" />
+
+    <EditText
+        android:id="@+id/et_waist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_waist_metric"
+        android:inputType="numberSigned|numberDecimal"
+        android:lines="1"
+        android:maxLength="4" />
+
+    <EditText
+        android:id="@+id/et_wrist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_wrist_metric"
+        android:inputType="numberSigned|numberDecimal"
+        android:lines="1"
+        android:maxLength="4" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_man"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/label_radio_man" />
+
+        <RadioButton
+            android:id="@+id/radio_woman"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_radio_woman" />
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/check_box_imperial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textOff="@string/label_check_box_imperial"
+        android:textOn="@string/label_check_box_metric" />
+
+    <Button
+        android:id="@+id/button_create_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_button_create_profile" />
+
+</LinearLayout>

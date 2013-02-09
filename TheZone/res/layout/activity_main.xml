@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main_screen"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <Button
+        android:id="@+id/button_new_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_new_profile" />
+
+    <Button
+        android:id="@+id/button_load_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_load_profile" />
+
+    <Button
+        android:id="@+id/button_delete_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_delete_profile" />
+
+</LinearLayout>

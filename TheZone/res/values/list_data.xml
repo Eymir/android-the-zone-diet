@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="example_list_data">
+        <item>200g low fat milk</item>
+        <item>1 egg, 1/2 slice of bread, 5 olives</item>
+        <item>1 frankfurter, 200g tomatoes, 8 peanuts</item>
+        <item>50g curd, 1/2 apple, 3 almond</item>
+        <item>42g salmon, 1 kiwi, 1/2 spoone mayonnaise</item>
+        <item>Yogurt 200g</item>
+    </string-array>
+
+</resources>

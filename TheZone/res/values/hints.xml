@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hint_name">Type your name</string>
+    <string name="hint_weight_metric">Weight (kg)</string>
+    <string name="hint_waist_metric">Waist (cm)</string>
+    <string name="hint_wrist_metric">Wrist (cm)</string>
+    <string name="hint_hip_metric">Hip (cm)</string>
+    <string name="hint_height_metric">Height (cm)</string>
+    <string name="hint_weight_imperial">Weight (lbs)</string>
+    <string name="hint_waist_imperial">Waist (inch)</string>
+    <string name="hint_wrist_imperial">Wrist (inch)</string>
+    <string name="hint_hip_imperial">Hip (inch)</string>
+    <string name="hint_height_imperial">Height (inch)</string>
+
+</resources>

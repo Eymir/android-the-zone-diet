@@ -1,0 +1,60 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thuf.thezone"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewProfileActivity"
+            android:label="@string/label_new_profile"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/label_profile" >
+        </activity>
+        <activity
+            android:name=".LoadProfileActivity"
+            android:label="@string/label_load_profile_activity"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name=".DeleteProfileActivity"
+            android:label="@string/label_delete_profile_activity"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name=".UpdateProfile"
+            android:label="@string/label_update_profile"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name=".StatisticsActivity"
+            android:label="@string/label_statistics" >
+        </activity>
+        <activity
+            android:name=".SelectStatisticsActivity"
+            android:label="@string/label_statistics"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+    </application>
+
+</manifest>
